@@ -5,15 +5,17 @@ import './Home.css'
 
 class Home extends React.Component {
   render () {
-    <Grid>
-      <Jumbotron>
-        <h2>Welcome to my portfolio</h2>
-        <p>I am a software developer, specializing in Front End Development</p>
-      </Jumbotron>
-      <Link to="/about">
-        <Button bsStyle="primary">About</Button>
-      </Link>
-    </Grid>
+    return (
+      <Grid>
+        <Jumbotron>
+          <h2>Welcome to my portfolio</h2>
+          <p>I am a software developer, specializing in Front End Development</p>
+        </Jumbotron>
+        <Link to="/about">
+          <Button bsStyle="primary">About</Button>
+        </Link>
+      </Grid>
+    )
   }
 }
 

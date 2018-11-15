@@ -1,11 +1,12 @@
 import React from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './CustomNav.css'
 
 class CustomNav extends React.Component {
   render () {
     return (
-      <Navbar default collapseOnSelct>
+      <Navbar default collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
             <Link to="/">Jose</Link>

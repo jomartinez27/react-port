@@ -26,7 +26,7 @@ class Home extends React.Component {
             <p>Let's Eat is a web app that uses Yelp's API to randomly generate a restaurant based on location and Google Maps API to display where the restaurant is located</p>
           </Col>
           <Col xs={12} sm={4} className="projects-wrapper">
-            <Image src="assets/fireworks-game.gif" circle className="projects-pic" />
+            <Image src="assets/FireWorks Cropped.png" circle className="projects-pic" />
             <h3>FireWorks</h3>
             <p>Fireworks is a JavaScript game that simulates a firework explosion. The user then clicks on the rainbow colored particle to score points and keep the game going</p>
           </Col>

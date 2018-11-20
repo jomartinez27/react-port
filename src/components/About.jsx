@@ -9,9 +9,9 @@ class About extends React.Component {
         <Image src="assets/profilel-photo.png" className="header-img" />
         <Grid>
           <Col xs={12} sm={8} smOffset={2}>
-            <Image src="assets/profilel-photo.png" className="about profile-pic"/>
+            <Image src="assets/Jose Khal Rest.jpg" className="about profile-pic"/>
             <h3>Jose Martinez</h3>
-            <p>I come from a low income family</p>
+            <p>Being a doggy dad can be challenging, but resting is nice.</p>
           </Col>
         </Grid>
       </div>

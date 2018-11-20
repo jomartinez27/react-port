@@ -6,7 +6,7 @@ class About extends React.Component {
   render () {
     return (
       <div>
-        <Image src="assets/profilel-photo.png" className="header-img" />
+        <Image src="assets/About Banner.jpg" className="header-img" />
         <Grid>
           <Col xs={12} sm={8} smOffset={2}>
             <Image src="assets/Jose Khal Rest Cropped.jpg" className="about-profile-pic"/>

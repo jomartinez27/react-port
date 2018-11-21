@@ -4,6 +4,23 @@
   margin-bottom: 2em;
 }
 
+.carousel {
+  margin: 0 1em 1em 0;
+}
+
+.about-desc {
+  margin: 0 1em 1em 0;
+  padding: 0 1em;
+}
+
+p {
+  font-size: large
+}
+
+.about-h3 {
+  text-align: center;
+}
+
 h3 {
   color: #038C8C;
 }

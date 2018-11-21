@@ -7,11 +7,11 @@ class About extends React.Component {
     return (
       <div>
         <Image src="assets/About Banner.jpg" className="header-img" />
-        <Grid>
+        <Grid className="about-container">
           <Col xs={12} sm={8} smOffset={2}>
             <Carousel>
               <Carousel.Item>
-                <Image src="assets/profilel-photo.png" className=".about-profile-pic"/>
+                <Image src="assets/Jose Amy a_A Cropped.jpg" className=".about-profile-pic"/>
               </Carousel.Item>
               <Carousel.Item>
                 <Image src="assets/Jose Khal Rest Cropped.jpg" className=".about-profile-pic"/>

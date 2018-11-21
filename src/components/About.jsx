@@ -38,7 +38,7 @@ class About extends React.Component {
                 a JavaScript game, a MERN stack app, and a React SPA as well as my own portfolio page.
                 <br />
                 <br />
-                Languages: Ruby/Rails, JavaScript/Node.js, React.js/Redux, CSS, HTML5.
+                Skills: Ruby/Rails, JavaScript/Node.js, React.js/Redux, CSS, HTML5.
                 <br />
                 Outside of programming: Powerlifting, video games, archery, and being a dog parent.
               </p>

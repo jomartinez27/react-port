@@ -1,16 +1,6 @@
-.proj {
-  text-align: center;
+.proj-1 {
   padding: 1em;
-  background-color: #03A688;
-  color: white;
-}
-
-.proj-image {
+  background-image: linear-gradient(to right, #03A688, #023E73);
   max-width: 100%;
-}
-
-@media (min-width: 1200px) {
-  .container {
-    width: 100%;
-  }
+  color: #FFF;
 }

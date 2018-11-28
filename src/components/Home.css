@@ -1,5 +1,6 @@
 .jumbotron {
   margin-bottom: 4em;
+  background-image: linear-gradient(to right, #023E73, #025373, #038C8C, #03A688, #04D98B);
 }
 
 .projects-wrapper {
@@ -14,7 +15,8 @@
   background-image: none;
   border: none;
   border-radius: 0;
-  background-color: #023E73;
+  background-color: #000 !important;
+  margin-right: 1em;
 }
 
 h3 {

@@ -1,13 +1,19 @@
 import React from 'react';
-import { Grid, Col, Image, Carousel, Row} from 'react-bootstrap';
+import { Grid, Col, Image, Carousel, Row, Jumbotron, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './About.css'
 
 class About extends React.Component {
   render () {
     return (
       <div>
-        <Image src="assets/About Banner Cropped.jpg" className="header-img" />
         <Grid className="about-container" fluid>
+          <Jumbotron>
+            <h3>About Me</h3>
+            <p>I am a software developer, specializing in Front End Development</p>
+            <a target="_blank" href="https://www.linkedin.com/in/jose-martinez-517a29149/"><Button bsStyle="primary">LinkedIn</Button></a>
+            <a target="_blank" href="https://github.com/jomartinez27"><Button bsStyle="primary">GitHub</Button></a>
+          </Jumbotron>
           <Row>
             <Col xs={12} sm={5}>
               <Carousel>

@@ -7,13 +7,13 @@ class Projects extends React.Component {
   render () {
     return (
       <div>
-        <Grid fluid={true}>
-          <Row>
-            <Col>
+        <Grid>
+          <Row className="proj">
+            <Col xs={12} sm={1}>
               <Image src="assets/ult-home Cropped.png" width={400}/>
             </Col>
-            <Col>
-              <h3>Ultimate Movie Guide</h3>
+            <Col xs={12} sm={8}>
+              <h3 style={{color: "#FFF"}}>Ultimate Movie Guide</h3>
               <p>
                 The Ultimate Movie Guide is a Single Page App,
                 that is built using React/Redux. This web app utilizes
@@ -23,8 +23,11 @@ class Projects extends React.Component {
                 to get more details about a specific movie.
               </p>
             </Col>
-            <Col>
-              <Image src="assets/ult-movie-details Cropped.png" width={400}/>
+            <Col xs={12} sm={1}>
+              <Image src="assets/ult-sorted Cropped.png" width={400}/>
+            </Col>
+            <Col sm={12}>
+              <Image src="assets/ult-movie-details Cropped.png" className="proj-image"/>
             </Col>
           </Row>
         </Grid>

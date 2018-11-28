@@ -1,0 +1,16 @@
+.proj {
+  text-align: center;
+  padding: 1em;
+  background-color: #03A688;
+  color: white;
+}
+
+.proj-image {
+  max-width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+}

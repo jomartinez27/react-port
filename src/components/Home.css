@@ -1,10 +1,14 @@
 .jumbotron {
   margin-bottom: 4em;
-  background-image: linear-gradient(to right, #023E73, #025373, #038C8C, #03A688, #04D98B);
+  background-color: #038C8C;
 }
 
 .projects-wrapper {
   margin-bottom: 2em;
+}
+
+.jumb-text {
+  color: #FFF;
 }
 
 .projects-pic {
@@ -15,7 +19,7 @@
   background-image: none;
   border: none;
   border-radius: 0;
-  background-color: #000 !important;
+  background-color: #023E73;
   margin-right: 1em;
 }
 
